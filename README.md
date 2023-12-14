@@ -6,4 +6,5 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 ## Additional setup
 ### Font
 - Fire code nerd font mono
-  - Brew: `brew install font-fira-code-nerd-font`
+  - `brew tap homebrew/cask-fonts`
+  - `brew install font-fira-code-nerd-font`
