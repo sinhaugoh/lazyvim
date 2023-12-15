@@ -19,3 +19,9 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 ### ripGrep
 
 - [ripGrep home page](https://github.com/BurntSushi/ripgrep)
+
+  - `brew install ripgrep`
+
+### FD
+
+- `brew install fd`
