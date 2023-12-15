@@ -18,4 +18,4 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 ### ripGrep
 
-- (ripGrep)[https://github.com/BurntSushi/ripgrep]
+- [ripGrep home page](https://github.com/BurntSushi/ripgrep)
