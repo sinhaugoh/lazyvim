@@ -5,4 +5,10 @@ return {
     { "<S-tab>", "<cmd>BufferLineCyclePrev<cr>", desc = "Navigate to previous buffer" },
     { "<leader>6", "<cmd>BufferLineCloseOthers<cr>", desc = "close other buffers" },
   },
+  opts = {
+    options = {
+      show_buffer_close_icons = false,
+      show_close_icon = false,
+    },
+  },
 }

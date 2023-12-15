@@ -10,6 +10,10 @@ return {
           silent = true,
         },
       },
+      presets = {
+        -- add border for hover pop up
+        lsp_doc_border = true,
+      },
     },
   },
 }
