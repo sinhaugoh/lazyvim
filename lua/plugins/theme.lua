@@ -1,11 +1,5 @@
 return {
   {
-    "folke/tokyonight.nvim",
-    opts = {
-      transparent = true,
-    },
-  },
-  {
     "navarasu/onedark.nvim",
     opts = {
       style = "darker",
