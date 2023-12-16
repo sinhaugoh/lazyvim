@@ -8,6 +8,12 @@ keymap.set("i", "jk", "<esc>", opts)
 keymap.set("n", "J", "5j")
 keymap.set("n", "K", "5k")
 
+-- make sure the cursor is in the middle when navigating using n/N or ctrl d/u
+keymap.set("n", "<C-d>", "<C-d>zz")
+keymap.set("n", "<C-u>", "<C-u>zz")
+keymap.set("n", "n", "nzzzv")
+keymap.set("n", "N", "Nzzzv")
+
 -- split
 keymap.set("n", "ss", ":split<Return>", opts)
 keymap.set("n", "sv", ":vsplit<Return>", opts)

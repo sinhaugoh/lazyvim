@@ -6,3 +6,4 @@ local opt = vim.opt
 opt.winbar = "%=%m %f"
 opt.clipboard = "" -- Sync with system clipboard
 opt.relativenumber = false -- Relative line numbers
+opt.scrolloff = 8

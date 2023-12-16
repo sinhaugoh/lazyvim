@@ -14,6 +14,12 @@ return {
         -- add border for hover pop up
         lsp_doc_border = true,
       },
+      -- views = {
+      --   hover = {
+      --     border = { style = "rounded" },
+      --     size = { max_width = 80 },
+      --   },
+      -- },
     },
   },
 }

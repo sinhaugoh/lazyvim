@@ -8,4 +8,9 @@ return {
       { "gr", "<cmd>Telescope lsp_references show_line=false<cr>", desc = "Go to reference", silent = true }
     keys[#keys + 1] = { "K", false }
   end,
+  opts = {
+    diagnostics = {
+      virtual_text = false,
+    },
+  },
 }

@@ -8,6 +8,22 @@ return {
     end,
   },
   opts = {
-    defaults = {},
+    defaults = {
+      wrap_results = true,
+      layout_strategy = "horizontal",
+      sorting_strategy = "ascending",
+      layout_config = {
+        prompt_position = "top",
+      },
+    },
+    pickers = {
+      diagnostics = {
+        theme = "ivy",
+        initial_mode = "normal",
+        layout_config = {
+          preview_cutoff = 9999,
+        },
+      },
+    },
   },
 }
