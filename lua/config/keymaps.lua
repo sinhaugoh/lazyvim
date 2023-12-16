@@ -20,3 +20,8 @@ keymap.set("n", "sv", ":vsplit<Return>", opts)
 
 -- lsp
 keymap.set({ "n", "i" }, "gk", vim.lsp.buf.signature_help, opts)
+
+-- camel case motion
+vim.keymap.set("", "w", "<Plug>CamelCaseMotion_w", { silent = true })
+vim.keymap.set("", "b", "<Plug>CamelCaseMotion_b", { silent = true })
+vim.keymap.set("", "e", "<Plug>CamelCaseMotion_e", { silent = true })
