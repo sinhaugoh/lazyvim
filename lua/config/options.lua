@@ -9,3 +9,9 @@ opt.relativenumber = false -- Relative line numbers
 opt.scrolloff = 8
 opt.list = false
 opt.wrap = true
+
+vim.diagnostic.config({
+  float = {
+    border = "rounded",
+  },
+})
