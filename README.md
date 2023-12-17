@@ -25,3 +25,7 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 ### FD
 
 - `brew install fd`
+
+### Greeting
+
+- [text generator](http://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=HAU%20HAU)
