@@ -8,3 +8,4 @@ opt.clipboard = "" -- Sync with system clipboard
 opt.relativenumber = false -- Relative line numbers
 opt.scrolloff = 8
 opt.list = false
+opt.wrap = true
