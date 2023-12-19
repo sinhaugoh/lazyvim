@@ -3,7 +3,7 @@ return {
   keys = {
     -- point the initial path to the active buffer
     -- { "<leader>fo", "<cmd>Telescope file_browser path=%:p:h select_buffer=true<CR>" },
-    { "<leader>fo", "<cmd>Telescope file_browser<CR>" },
+    { "<leader>fo", "<cmd>Telescope file_browser<CR>", desc = "Open file browser (telescope)" },
   },
   opts = {
     extensions = {
