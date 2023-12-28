@@ -5,6 +5,7 @@ return {
       "html-lsp",
       -- "node-debug2-adapter",
       "js-debug-adapter",
+      "vue-language-server",
       -- "chrome-debug-adapter",
     },
   },
