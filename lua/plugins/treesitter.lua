@@ -17,6 +17,9 @@ return {
       "vim",
       "yaml",
       "vue",
+      "scss",
+      "fish",
+      "css",
     },
   },
 }
