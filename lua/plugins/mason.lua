@@ -7,6 +7,7 @@ return {
       "js-debug-adapter",
       "vue-language-server",
       -- "chrome-debug-adapter",
+      "prisma-language-server",
     },
   },
 }

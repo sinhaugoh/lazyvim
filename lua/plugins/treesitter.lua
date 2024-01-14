@@ -20,6 +20,7 @@ return {
       "scss",
       "fish",
       "css",
+      "prisma",
     },
   },
 }
