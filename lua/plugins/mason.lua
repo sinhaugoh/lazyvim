@@ -8,6 +8,7 @@ return {
       "vue-language-server",
       -- "chrome-debug-adapter",
       "prisma-language-server",
+      "css-lsp",
     },
   },
 }
