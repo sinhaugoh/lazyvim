@@ -25,6 +25,7 @@ require("lazy").setup({
       "nvim-telescope/telescope-file-browser.nvim",
       dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" },
     },
+    { import = "lazyvim.plugins.extras.util.project" },
     { import = "plugins" },
   },
   defaults = {

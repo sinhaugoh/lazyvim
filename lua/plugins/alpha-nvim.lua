@@ -17,6 +17,7 @@ return {
     dashboard.button("f", " " .. " Find file",       "<cmd> Telescope find_files <cr>"),
     dashboard.button("n", " " .. " New file",        "<cmd> ene <BAR> startinsert <cr>"),
     dashboard.button("r", " " .. " Recent files",    "<cmd> Telescope oldfiles <cr>"),
+    dashboard.button("p", " " .. " Projects", ":Telescope projects <CR>"),
     dashboard.button("g", " " .. " Find text",       "<cmd> Telescope live_grep <cr>"),
     dashboard.button("c", " " .. " Config",          "<cmd> lua require('lazyvim.util').telescope.config_files()() <cr>"),
     dashboard.button("s", " " .. " Restore Session", [[<cmd> lua require("persistence").load() <cr>]]),
