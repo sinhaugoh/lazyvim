@@ -25,3 +25,6 @@ keymap.set({ "n", "i" }, "gk", vim.lsp.buf.signature_help, opts)
 vim.keymap.set("", "w", "<Plug>CamelCaseMotion_w", { silent = true })
 vim.keymap.set("", "b", "<Plug>CamelCaseMotion_b", { silent = true })
 vim.keymap.set("", "e", "<Plug>CamelCaseMotion_e", { silent = true })
+
+-- enable formatting of highlighted lines only
+vim.keymap.set("v", "<Leader>f", vim.lsp.buf.format)
