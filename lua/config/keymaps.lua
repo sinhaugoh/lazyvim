@@ -27,4 +27,4 @@ vim.keymap.set("", "b", "<Plug>CamelCaseMotion_b", { silent = true })
 vim.keymap.set("", "e", "<Plug>CamelCaseMotion_e", { silent = true })
 
 -- enable formatting of highlighted lines only
-vim.keymap.set("v", "<Leader>f", vim.lsp.buf.format)
+vim.keymap.set("v", "<Leader>ft", vim.lsp.buf.format)
